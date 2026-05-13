@@ -5,8 +5,6 @@ Controls the car air conditioning system.
 Rules:
 - AC can only be turned ON if the engine is running
 - AC turns OFF automatically if the engine stops
-
-Uses shared state to validate engine status.
 """
 
 import state
