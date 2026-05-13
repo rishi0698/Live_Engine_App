@@ -1,14 +1,6 @@
 """
 main.py
 Entry point of the Live Engine App.
-
-This file acts as the coordinator between:
-- User input (commands like start, stop, status, exit)
-- Feature modules (engine, ac, lock, radio)
-- Shared application state
-
-main.py does NOT contain business logic.
-It only routes commands to the correct module.
 """
 
 import engine
