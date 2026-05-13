@@ -5,9 +5,6 @@ Controls the car engine.
 Responsibilities:
 - Start the engine
 - Stop the engine
-- Update shared state when engine status changes
-
-Other modules (AC, Radio) depend on engine state.
 """
 
 import state
